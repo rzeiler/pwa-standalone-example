@@ -5,8 +5,8 @@ const contentToCache = [
   '/pwa-standalone-example/styles/normalize.css',
   '/pwa-standalone-example/styles/main.css',
   '/pwa-standalone-example/main.js',
-  '/pwa-standalone-example/images/icons/baseline-get_app-24px.svg',
-  '/pwa-standalone-example/images/icons/baseline-help-24px.svg',
+  '/pwa-standalone-example/images/baseline-get_app-24px.svg',
+  '/pwa-standalone-example/images/baseline-help-24px.svg',
 ];
 
 // Install the Service Worker

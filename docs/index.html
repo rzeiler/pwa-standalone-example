@@ -10,9 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    
 
-    <link rel="stylesheet" href="/styles/normalize.css">
-    <link rel="stylesheet" href="/styles/main.css">
-    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="/pwa-standalone-example/styles/normalize.css">
+    <link rel="stylesheet" href="/pwa-standalone-example/styles/main.css">
+    <link rel="manifest" href="/pwa-standalone-example/manifest.webmanifest">
     <meta name="theme-color" content="#5A0FC8">
 
 </head>
@@ -27,13 +27,13 @@
     <footer class="footer">
         <a hidden href="#" class="install-link">Install App</a>
     </footer>
-    <script src="/main.js"></script>
+    <script src="/pwa-standalone-example/main.js"></script>
 
     <script>
         // Register service worker
         if ("serviceWorker" in navigator) {
             window.addEventListener("load", () => {
-                navigator.serviceWorker.register("/sw.js", { scope: '/' });
+                navigator.serviceWorker.register("/pwa-standalone-example/sw.js", { scope: '/pwa-standalone-example/' });
             });
         }
     </script>

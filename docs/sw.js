@@ -1,12 +1,12 @@
 const cacheName = 'pwa-display-test-v5';
 const contentToCache = [
-  '/',
-  '/index.html',
-  '/styles/normalize.css',
-  '/styles/main.css',
-  '/main.js',
-  '/images/icons/baseline-get_app-24px.svg',
-  '/images/icons/baseline-help-24px.svg',
+  '/pwa-standalone-example/',
+  '/pwa-standalone-example/index.html',
+  '/pwa-standalone-example/styles/normalize.css',
+  '/pwa-standalone-example/styles/main.css',
+  '/pwa-standalone-example/main.js',
+  '/pwa-standalone-example/images/icons/baseline-get_app-24px.svg',
+  '/pwa-standalone-example/images/icons/baseline-help-24px.svg',
 ];
 
 // Install the Service Worker

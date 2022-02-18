@@ -19,6 +19,7 @@
 
 html, body {
     height: 100%;
+    height: env(safe-area-inset-top);
 }
 
 body {

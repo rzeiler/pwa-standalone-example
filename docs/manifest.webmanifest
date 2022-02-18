@@ -5,7 +5,7 @@
     "scope": "/pwa-standalone-example/",
     "background_color": "#5A0FC8",
     "theme_color": "#3c0a86",
-    "start_url": "./pwa-standalone-example/?standalone=true",
+    "start_url": "https://rzeiler.github.io/pwa-standalone-example/",
     "display": "standalone",
     "icons": [
         {

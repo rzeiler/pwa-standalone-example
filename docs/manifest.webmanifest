@@ -4,7 +4,7 @@
     "description": "See how standalone Progressive Web Apps (PWAs) look and feel on your devices and platforms. Try it on Android, iOS, Linux, macOS, Windows, and other operating systems.",
     "scope": "/pwa-standalone-example/",
     "background_color": "#5A0FC8",
-    "theme_color": "#3c0a86",
+    "theme_color": "transparent",
     "start_url": "https://rzeiler.github.io/pwa-standalone-example/",
     "display": "standalone",
     "icons": [

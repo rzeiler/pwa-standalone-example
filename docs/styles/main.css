@@ -7,6 +7,12 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+   /* height: env(safe-area-inset-top);
+   width: env(safe-area-inset-left);
+   margin: env(safe-area-inset-right);
+   // you can also use fallback values
+   padding: env(safe-area-inset-bottom, 20px); */
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -47,13 +53,14 @@ p {
 .header {
     background: rgba(0, 0, 0, 0.33);
     color: #fff;
+    position: fixed;
+    top:0;
+    width: 100%;
+    display: block;
+    padding: 20px;
 }
 
-@media (min-width: 600px) {
-    .header {
-        padding: 0 1rem;
-    }
-}
+ 
 
 .header__row {
     align-items: center;
@@ -97,7 +104,7 @@ p {
     flex-direction: column;
     flex-grow: 1;
     justify-content: center;
-    padding: 2rem;
+    padding: 60px 2rem;
 }
 
 /*
@@ -153,4 +160,11 @@ data[value] {
 
 .mb--0 {
     margin-bottom: 0;
+}
+
+.card{
+    display: block;
+    background-color: rgba(255,255,255,.5);
+    height: 50vh;
+    margin: 10px;
 }

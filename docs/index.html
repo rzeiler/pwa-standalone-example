@@ -7,11 +7,16 @@
     <meta name="description"
         content="See how Progressive Web Apps (PWAs) look and feel on your devices and platforms. 
         Try it on Android, iOS, Linux, macOS, Windows, and other operating systems.">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   
+  
+    <meta name="viewport" content="width=device-width; initial-scale=1; viewport-fit=cover">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    
+    <!-- possible content values: default, black or black-translucent -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    <link rel="stylesheet" href="/pwa-standalone-example/styles/normalize.css">
-    <link rel="stylesheet" href="/pwa-standalone-example/styles/main.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/main.css">
     <link rel="manifest" href="/pwa-standalone-example/manifest.webmanifest">
     <meta name="theme-color" content="#5A0FC8">
 
@@ -22,7 +27,9 @@
         PWA TEST
     </header>
     <main class="main">
-         
+        <div class="card">1</div> 
+        <div class="card">2</div> 
+        <div class="card">3</div> 
     </main>
     <footer class="footer">
         <a hidden href="#" class="install-link">Install App</a>

@@ -1,9 +1,4 @@
-/*
- *  PWA Display Test. Copyright (c) 2018-2021 Tecdrop. MIT License.
- *  https://www.tecdrop.com
- */
-
-/* eslint-disable no-console */
+ 
 
 let installPromptEvent;
 const installLink = document.querySelector(".install-link");
